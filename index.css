@@ -1,0 +1,925 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "myfont";
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "myfont2";
+  src: url(GreatVibes-Regular-webfont.ttf);
+}
+@font-face {
+  font-family: "myfont";
+  src: url(JosefinSans-Regular.ttf);
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  font-family: myfont;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 50px;
+  color: black;
+}
+.navigation .logo {
+  margin-left: -209px;
+  justify-content: left;
+  justify-content: start;
+  height: 10vh;
+}
+.navigation .log {
+  margin-right: -166px;
+  justify-content: right;
+}
+.navigation .crazy {
+  justify-content: space-between;
+  font-family: "myfont" JosefinSans;
+  position: relative;
+  left: 120px;
+}
+.navigation .crazy ul {
+  display: inline-block;
+}
+.navigation .crazy a {
+  font-size: 20px;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.logo1 {
+  width: 129px;
+  height: 12vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 0 20px;
+}
+
+.b {
+  color: #742296;
+  padding: 0 20px;
+}
+
+.c {
+  color: black;
+  padding: 0 20px;
+}
+
+.col-md-6 {
+  padding-left: 20px;
+}
+
+.col-md-3 {
+  position: relative;
+  left: 500px;
+  top: -212px;
+}
+
+.port #we {
+  margin-top: 20px;
+}
+.port img {
+  width: 180px;
+  height: 79vh;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.home .safe h1 {
+  font-size: 41px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+.home .safe .btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.home .safe p {
+  margin-bottom: 20px;
+  width: 400px;
+}
+.home .safe a {
+  background-color: #742296;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+.home .safe .book {
+  background-color: white;
+  color: black;
+  border: 4px solid #742296;
+  padding: 8px;
+}
+.home .port {
+  display: flex;
+}
+.home .port img {
+  padding: 0 5px;
+}
+.home .port .pic1, .home .port .pic2 {
+  align-items: end;
+  margin-top: 60px;
+}
+
+.play {
+  display: flex;
+  gap: 10px;
+}
+.play p {
+  color: #742296;
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+}
+
+.button3 {
+  background-color: #742296;
+  border: none;
+  padding: 8px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+h3 {
+  margin-left: 80px;
+}
+
+.about {
+  margin-top: 100px;
+}
+.about .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.about .main img {
+  width: 200px;
+  height: 40vh;
+}
+.about .main .image2 {
+  position: absolute;
+  top: 165%;
+}
+.about .goals {
+  width: 400px;
+  height: 50vh;
+}
+.about .imgabout {
+  margin-top: 60px;
+}
+.about .imgabout p {
+  padding-top: 17px;
+}
+.about .src {
+  position: relative;
+  bottom: 273px;
+  left: 56px;
+}
+.about .afaro {
+  margin-right: 55px;
+  margin-bottom: 66px;
+}
+
+.pride {
+  margin-top: 30px;
+}
+
+.screen {
+  width: 31px;
+  position: relative;
+  bottom: -8px;
+  left: -4px;
+}
+
+.cul {
+  width: 300px;
+  padding: 20px;
+}
+
+.services {
+  font-family: myfont;
+  margin-top: 100px;
+}
+.services h5 {
+  padding-top: 31px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.services h5 {
+  top: 492px;
+  position: relative;
+  left: 138px;
+  font-size: 22px;
+  color: white;
+}
+
+.brand {
+  background-color: #742296;
+  color: white;
+  width: 300px;
+  height: 461px;
+  line-height: 2;
+  margin-top: 83px;
+}
+.brand p {
+  margin-left: 21px;
+}
+.brand .wats {
+  margin-left: 40px;
+  line-height: 38px;
+}
+
+.gos {
+  text-decoration: underline;
+}
+
+.wats {
+  justify-content: space-between;
+}
+
+.vaness {
+  position: relative;
+  right: -325px;
+  height: 40px;
+  top: -20px;
+}
+
+.jog {
+  position: relative;
+  bottom: -12px;
+  right: -263px;
+}
+
+.web {
+  position: relative;
+  right: 65px;
+  height: 40px;
+  bottom: 20px;
+}
+
+.hello {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.testmonies {
+  font-family: myfont;
+  margin-top: 100px;
+}
+.testmonies .tendai {
+  width: 400px;
+}
+.testmonies .bride {
+  width: 400px;
+}
+
+.media {
+  height: 40px;
+  position: relative;
+  right: 44px;
+}
+
+.tech {
+  height: 40px;
+  position: relative;
+  right: 44px;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team {
+  position: relative;
+  bottom: -18px;
+}
+.team p {
+  padding-top: 18px;
+}
+
+.time {
+  padding-left: 61px;
+}
+.time p {
+  padding-top: 18px;
+}
+
+.seen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 90px;
+}
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.insta h4 {
+  font-size: 24px;
+}
+
+.tigzozo1 {
+  width: 140px;
+  height: 54vh;
+}
+
+.tigzozo {
+  padding-top: 109px;
+  margin: 0 5px;
+  width: 121px;
+  height: 54vh;
+}
+
+h5 {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.hash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hash p {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0 20px 0;
+  background-color: #742296;
+  color: white;
+  line-height: 2;
+}
+.footer p {
+  font-size: 18px;
+}
+.footer .film {
+  width: 109px;
+  height: 8vh;
+}
+
+.app1 {
+  font-size: 10px;
+}
+
+.more {
+  font-size: 30px;
+}
+.more i {
+  padding-right: 20px;
+}
+
+.film {
+  width: 109;
+  height: 8vh;
+}
+
+h6 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.call2 i {
+  padding-right: 20px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.click {
+  color: #742296;
+}
+
+@media only screen and (max-width: 667px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .click {
+    color: #742296;
+    margin-left: 20px;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: #742296;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .navigation {
+    font-family: myfont;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+  }
+  .navigation .logo {
+    margin-left: -144px;
+    justify-content: left;
+    justify-content: start;
+  }
+  .navigation .log {
+    margin-right: -166px;
+    justify-content: right;
+  }
+  .navigation .log img {
+    width: 25px;
+    border-radius: 50px;
+  }
+  .navigation .crazy {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    gap: 50px;
+    font-size: 20px;
+    display: none;
+  }
+  .logo1 {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .col-md-6 {
+    padding-left: 20px;
+  }
+  .col-md-3 {
+    position: relative;
+    left: 500px;
+    top: -212px;
+  }
+  .port #we {
+    margin-top: 20px;
+  }
+  .port img {
+    width: 149px;
+    height: 58vh;
+  }
+  p.ro {
+    width: 358px;
+    margin-left: 72px;
+    padding-top: 20px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .home .safe h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 246px;
+  }
+  .home .safe .btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .home .safe p {
+    margin-bottom: 20px;
+    width: 281px;
+  }
+  .home .safe a {
+    background-color: #742296;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+  .home .safe .book {
+    background-color: white;
+    color: black;
+    border: 4px solid #742296;
+    padding: 8px;
+  }
+  .home .port {
+    display: flex;
+  }
+  .home .port img {
+    padding: 0 5px;
+  }
+  .home .port .pic1, .home .port .pic2 {
+    align-items: end;
+    margin-top: 60px;
+    display: none;
+  }
+  .button3 {
+    background-color: #742296;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin-bottom: 32px;
+  }
+  h3 {
+    margin-left: 80px;
+  }
+  .about {
+    margin-top: 100px;
+  }
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .about .main img {
+    width: 149px;
+    height: 26vh;
+  }
+  .about .goals {
+    width: 326px;
+    height: 42vh;
+  }
+  .about .imgabout {
+    margin-top: -80px;
+  }
+  .about .src {
+    position: relative;
+    bottom: 273px;
+    left: 16px;
+  }
+  .pride {
+    margin-top: 30px;
+  }
+  .screen {
+    width: 31px;
+    position: relative;
+    bottom: -8px;
+    left: -4px;
+  }
+  .cul {
+    width: 327px;
+    padding: 20px;
+    margin-left: 4px;
+  }
+  .services {
+    font-family: myfont;
+    margin-top: 28px;
+  }
+  .services h5 {
+    padding-top: 31px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .services h5 {
+    top: 492px;
+    position: relative;
+    left: 138px;
+    font-size: 22px;
+    color: white;
+    display: none;
+  }
+  .about .main .image2 {
+    position: absolute;
+    top: 112%;
+    display: none;
+  }
+  .image1 {
+    display: none;
+  }
+  .brand {
+    background-color: #742296;
+    color: white;
+    width: 328px;
+    height: 461px;
+    line-height: 2;
+    margin-top: 1px;
+    margin-left: -1px;
+  }
+  .brand p {
+    margin-left: 21px;
+  }
+  .brand .wats {
+    margin-left: 40px;
+    line-height: 38px;
+  }
+  .wats {
+    justify-content: space-between;
+  }
+  .vaness {
+    position: relative;
+    right: -311px;
+    height: 40px;
+    top: 528px;
+  }
+  .jog {
+    position: relative;
+    bottom: -12px;
+    right: -291px;
+  }
+  .web {
+    position: relative;
+    right: -311px;
+    height: 40px;
+    bottom: 64px;
+  }
+  .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+  .testmonies {
+    font-family: myfont;
+    margin-top: 26px;
+  }
+  .testmonies .tendai {
+    width: 320px;
+  }
+  .testmonies .bride {
+    width: 320px;
+  }
+  .testmonies h3 {
+    margin-left: 37px;
+  }
+  .media {
+    height: 40px;
+    position: relative;
+    right: -280px;
+    top: -44px;
+  }
+  .tech {
+    height: 40px;
+    position: relative;
+    right: -280px;
+    top: -44px;
+  }
+  .two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    flex-direction: column;
+  }
+  .team {
+    position: relative;
+    bottom: -58px;
+    left: 26px;
+  }
+  .team p {
+    width: 82%;
+  }
+  .time {
+    padding-left: 61px;
+    padding-top: 108px;
+  }
+  .time p {
+    padding-top: 18px;
+  }
+  .seen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 86px;
+  }
+  .insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .tigzozo1 {
+    width: 98px;
+    height: 33vh;
+    padding: 2px;
+  }
+  .tigzozo {
+    padding-top: 109px;
+    margin: 0 10px;
+    width: 140px;
+    height: 54vh;
+    display: none;
+  }
+  .tigzozo h5 {
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+  .tigzozo .hash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tigzozo .hash p {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .footer .app1, .footer .app2, .footer .app3, .footer .call {
+    width: 90%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .footer .more i {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .click {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */
