@@ -277,6 +277,11 @@ h3{
     padding: 20px;
 }
 
+.vice{
+    width: 300px;
+    padding: 20px; 
+}
+
 .services{
     font-family: myfont;
     margin-top: 100px;
@@ -903,6 +908,12 @@ h6{
       bottom: -8px;
       left: -4px;
   }
+
+  .vice{
+    width: 327px;
+    padding: 20px;
+    margin-left: 4px;
+}
   
   
   
@@ -1129,6 +1140,206 @@ h6{
 }
 
 }
+
+@media only  screen and (min-width: 668px) and (max-width: 991px){
+
+    .logo1 {
+        width: 129px;
+        height: 12vh;
+        -o-object-fit: contain;
+        object-fit: contain;
+        position: relative;
+        left: 107px;
+    }
+
+    .about .src {
+        position: relative;
+        bottom: 457px;
+        left: 211px;
+    }
+
+    .services h5 {
+        top: 492px;
+        position: relative;
+        left: 138px;
+        font-size: 22px;
+        color: white;
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    .safe{
+        margin-left: -270px;
+    }
+
+    .about{
+        .goals{
+            width: 663px;
+            height: 54vh;
+        }
+        p{
+            padding-top: 20px;
+            width: 97%;
+            font-size: 28px;
+        }
+    }
+
+    .port img {
+        width: 159px;
+        height: 48vh;
+    }
+
+    .about .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .about .main .image2 {
+        position: absolute;
+        top: 136%;
+        left: 386px;
+        object-fit: cover;
+    }
+
+    .about .main img {
+        width: 337px;
+        height: 46vh;
+    }
+
+
+
+
+
+    .tigzozo1{
+        width: 100px;
+        height: 39vh;
+        object-fit: cover;
+    }
+
+    .tigzozo{
+        padding-top: 109px;
+        width: 100px;
+        height: 44vh;
+        object-fit: cover;
+    }
+
+    .two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .testmonies{
+        .bride{
+            width: 609px;
+        }
+
+        .tendai{
+            width: 609px;
+        }
+    }
+
+    .time p{
+        font-size: 28px;
+    }
+
+   
+
+    .time {
+        padding-left: 61px;
+        padding-top: 79px;
+    }
+
+    .team {
+        position: relative;
+        bottom: -18px;
+        left: 38px;
+
+        p{
+            font-size: 23px;
+        }
+    }
+
+    .vice {
+        width: 210px;
+        padding: 20px;
+        margin-top: -96px;
+    }
+
+    .cul {
+        width: 210px;
+        padding: 20px;
+    }
+
+    .vaness {
+        position: relative;
+        right: -190px;
+        height: 40px;
+        top: 253px;
+    }
+
+    .web {
+        position: relative;
+        right: -190px;
+        height: 40px;
+        bottom: 64px;
+    }
+
+    .jog {
+        position: relative;
+        bottom: -12px;
+        right: -222px;
+    }
+
+    .hello {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .seen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 17px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 0 20px 0;
+        background-color: #742296;
+        color: white;
+        line-height: 2;
+        flex-wrap: wrap
+    }
+
+    .call{
+        position: relative;
+        left: -185px;
+    }
+
+    
+}
+
+
 
 @media screen and (min-width:768px) {
     .click{
