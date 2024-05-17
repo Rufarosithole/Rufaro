@@ -37,23 +37,28 @@ body {
   justify-content: start;
   height: 10vh;
 }
-.navigation .log {
-  margin-right: -166px;
-  justify-content: right;
-}
-.navigation .crazy {
+
+.crazy {
   justify-content: space-between;
   font-family: "myfont" JosefinSans;
   position: relative;
   left: 120px;
 }
-.navigation .crazy ul {
+.crazy ul {
   display: inline-block;
 }
-.navigation .crazy a {
+.crazy a {
   font-size: 20px;
   text-decoration: none;
   gap: 10px;
+}
+
+.log {
+  margin-right: -166px;
+  justify-content: right;
+}
+.log img {
+  border-radius: 60px;
 }
 
 .logo1 {
@@ -566,6 +571,9 @@ h6 {
   .click {
     color: #742296;
     margin-left: 20px;
+    position: relative;
+    top: -13px;
+    left: 13px;
   }
   .overlay {
     height: 100%;
@@ -625,6 +633,8 @@ h6 {
   .navigation .log img {
     width: 25px;
     border-radius: 50px;
+    position: relative;
+    top: 25px;
   }
   .navigation .crazy {
     display: flex;
@@ -1178,6 +1188,90 @@ h6 {
     height: 461px;
     line-height: 2;
     margin-top: 35px;
+  }
+}
+@media only screen and (min-width: 766px) and (max-width: 767.9px) {
+  .port img {
+    width: 153px;
+    height: 68vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about .goals {
+    width: 599px;
+    height: 81vh;
+  }
+  .about .src {
+    position: relative;
+    bottom: 365px;
+    left: 158px;
+  }
+  .click {
+    color: #742296;
+    display: none;
+  }
+  .log img {
+    border-radius: 60px;
+    width: 4vh;
+  }
+  .about .main .image2 {
+    position: absolute;
+    top: 228%;
+    left: 386px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .about p {
+    padding-top: 20px;
+    width: 100%;
+    font-size: 23px;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: #742299;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .brand {
+    background-color: #742296;
+    color: white;
+    width: 300px;
+    height: 436px;
+    /* line-height: 1; */
+    margin-top: -49px;
+  }
+  .cul {
+    width: 210px;
+    padding: 20px;
+    height: 79vh;
+  }
+  .vice {
+    width: 210px;
+    padding: 20px;
+    margin-top: -96px;
+    height: 79vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .jog {
+    position: relative;
+    bottom: 13px;
+    right: -222px;
+  }
+  .vaness {
+    position: relative;
+    right: -190px;
+    height: 40px;
+    top: 359px;
+  }
+  .time p {
+    font-size: 23px;
   }
 }
 @media screen and (min-width: 768px) {
