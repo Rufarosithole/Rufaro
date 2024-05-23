@@ -664,7 +664,7 @@ h6 {
     height: 58vh;
   }
   p.ro {
-    width: 358px;
+    width: 347px;
     margin-left: 72px;
     padding-top: 20px;
   }
@@ -722,6 +722,7 @@ h6 {
   }
   h3 {
     margin-left: 80px;
+    width: 286px;
   }
   .about {
     margin-top: 100px;
@@ -1277,5 +1278,44 @@ h6 {
 @media screen and (min-width: 768px) {
   .click {
     display: none;
+  }
+}
+@media screen and (min-width: 1399.98px) {
+  .home .port img {
+    padding: 0 5px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about .goals {
+    width: 400px;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about .main .image2 {
+    position: absolute;
+    top: 155%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about .main img {
+    width: 200px;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .tigzozo1 {
+    width: 140px;
+    height: 54vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .tigzozo {
+    padding-top: 109px;
+    margin: 0 5px;
+    width: 150px;
+    height: 54vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=index.css.map */
